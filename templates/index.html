@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<main>
+  
+  <div class="container">
+    <div class="pricing-main">
+        <h1 class="display">Pricing</h1>
+        <p class="fs-5">Quickly build an effective pricing table for your potential customers with this Bootstrap example.<br> It’s built with default Bootstrap components and utilities with little customization.</p>
+    </div>
+
+
+    <div class="row row">
+      <table class="table">
+        <tr>
+          <td class="td">
+            <p class="p">
+              <h4 class="my-0_fw-normal">Free</h4>
+            </p>
+            <p class="my-0_fw-normal">
+              <div class="card-body">
+                <h1 class="card-title">$0<small class="text-muted">/mo</small></h1>
+                <ul class="list-unstyled">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+              <button type="button" class="w-100 btn">Sign up for free</button>
+            </p>
+          </td>  
+
+          <td class="td">
+            <p class="p">
+              <h4 class="my-0_fw-normal">Pro</h4>
+            </p>
+            <p class="my-0_fw-normal">
+              <div class="card-body">
+                <h1 class="card-title">$15<small class="text-muted">/mo</small></h1>
+                <ul class="list-unstyled">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn">Get started</button>
+              </div>
+            </p>
+          </td>
+          <td class="td">
+            <p class="p">
+              <h4 class="my-0 fw-normal">Enterprise</h4>
+            </p>
+            <p>
+              <div class="card-body">
+                <h1 class="card-title">$29<small class="text-muted">/mo</small></h1>
+                <ul class="list-unstyled">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn">Contact us</button>
+              </div>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h2 class="display">Compare plans</h2>
+    <table class="table1">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Free</th>
+          <th>Pro</th>
+          <th>Enterprise</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="th">Public</th>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+        </tr>
+        <tr>
+          <th class="th">Private</th>
+          <td class="tbd"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></use></svg></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th class="th">Permissions</th>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+        </tr>
+        <tr>
+          <th class="th">Sharing</th>
+          <td class="tbd"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+        </tr>
+        <tr>
+          <th class="th">Unlimited members</th>
+          <td class="tbd"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+        </tr>
+        <tr>
+          <th class="th">Extra security</th>
+          <td class="tbd"></td>
+          <td class="tbd"></td>
+          <td class="tbd"><img class="icon1" src="/static/image/check.png"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+{% endblock %}
