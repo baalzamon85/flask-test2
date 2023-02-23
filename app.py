@@ -91,4 +91,4 @@ def create_articale():
 
 
 if __name__ == "__main__":  # запуск приложения
-    app.run(debug=True)
+    app.run(debug=False)
